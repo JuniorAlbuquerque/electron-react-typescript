@@ -1,13 +1,15 @@
 import React from 'react';
-import logo from '../../logo.svg';
+// import logo from '../../logo.svg';
+
+import Jnr from '../../assets/jnr.jpg';
 
 const App: React.FC = () => {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={Jnr} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          Teste img
         </p>
         <a
           className="App-link"
